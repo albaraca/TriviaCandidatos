@@ -19,8 +19,7 @@ function check(){
     document.getElementById("scoreP1").innerHTML=("correcta");
   } else {
     //document.getElementById("scoreP1").innerHTML=("incorrecta");
-    var original = document.getElementById("scoreP1").innerHTML;
-    document.getElementById("scoreP1").innerHTML = original + "incorrecta";
+    document.getElementById("scoreP1").innerHTML=("incorrecta");
   }
   if(P2=="c"){
     count++;
