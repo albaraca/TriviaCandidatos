@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Atínale al canditato</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="titulo">
+      <h1>Atínale al candidato<br> <small>La trivia más divertida hasta que el INE haga de las suyas</small></h1>
+      <p id="Bienvenida"></p>
+    </div>
+
+    <div class="instruccion">
+      <p>Adivina de qué candidato estamos hablando. Al final quien conteste correctamente todas las preguntas se llevará un premio.</p>
+    </div>
+
+      <div class="pregunta1">
+        <form name="myForm">
+          <p>P1.¿Quién se ha postulado por tercera vez a la presidencia?</p><br>
+          <input type="radio" name="P1" value="a">AMLOVE<br>
+          <input type="radio" name="P1" value="b">Vicente Fox<br>
+          <input type="radio" name="P1" value="c">Carmelita Salinas</br><br>
+          </div>
+
+        <div class="pregunta2">
+          <p>P2.Si vendieras prótesis para manos ¿por quién votarías?</p><br>
+          <input type="radio" name="P2" value="a">Vicente Fernández<br>
+          <input type="radio" name="P2" value="b">Alejandro Fernández<br>
+          <input type="radio" name="P2" value="c">El Bronco</br><br>
+         </div>
+
+         <div class="pregunta3">
+            <p>P3.¿Quién quería ser candidata para defenderte a ti, mujer?</p><br>
+            <input type="radio" name="P3" value="a">Josefina Vázquez Mota<br>
+            <input type="radio" name="P3" value="b">Margarita Zavala<br>
+            <input type="radio" name="P3" value="c">Gloria de los Ángeles Treviño</br><br>
+          </div>
+
+<div class="submit">
+<input type="button" value="submit" onclick="check()">
+</div>
+
+
+        </form> </br>
+<div class="respuesta">La respuesta de la pregunta 1 es: <div id="scoreP1"></div></div>
+<div class="respuesta">La respuesta de la pregunta 2 es: <div id="scoreP2"></div></div>
+<div class="respuesta">La respuesta de la pregunta 3 es: <div id="scoreP3"></div></div>
+<div class="respuestaFinal">Tu puntaje final es: <div id="finalScore"> <div class="image"></div></div>
+<img id="goodJob"></div>
+
+<script src="main.js" charset="utf-8"></script>
+
+  </body>
+</html>
